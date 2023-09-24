@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig.json",
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "include": [
+    "env.d.ts",
+    "vendor/tightenco/ziggy/dist/vue.m.js",
+    "resources/**/*",
+    "resources/**/*.vue"
+  ],
+  "exclude": ["resources/**/__tests__/*"],
+  "compilerOptions": {
+    "composite": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./resources/js/*"],
+      "~/*": ["./node_modules/*"],
+      "ziggy-vue": ["./vendor/tightenco/ziggy/dist/vue.m"]
+    }
+  },
+  "vueCompilerOptions": { "target": 2.7 }
+}
