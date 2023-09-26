@@ -7,6 +7,28 @@
     "framework"
   ],
   "license": "MIT",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/FmTod/laravel-tabulator-inertia"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/FmTod/laravel-tabulator"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/FmTod/laravel-money-source"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/FmTod/mylisterhub-core-package"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/FmTod/mylisterhub-template-wizard"
+    }
+  ],
   "require": {
     "php": "^8.1",
     "guzzlehttp/guzzle": "^7.2",
@@ -15,6 +37,7 @@
     "laravel/framework": "^10.10",
     "laravel/sanctum": "^3.2",
     "laravel/tinker": "^2.8",
+    "mylisterhub/template-wizard": "dev-binary3oul",
     "tightenco/ziggy": "^1.0"
   },
   "require-dev": {
